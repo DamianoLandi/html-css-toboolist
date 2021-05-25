@@ -34,7 +34,12 @@ main{
     width: 1050px;
     margin: auto;
     border-radius: 10px;
-    
+}
+
+.lists{
+    color:rgb(68,72,81);
+    padding-left: 60px;
+    padding-top:35px;
 }
 
 nav{
@@ -70,4 +75,16 @@ nav{
 hr{
     border-color: rgb(246,248,249);
     border-style: solid;
+}
+
+h3{
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.triangle{
+    display:inline-block;
+    transform:scale(2,1);
+    font-size:15px;
 }
