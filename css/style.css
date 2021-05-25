@@ -78,7 +78,7 @@ hr{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 35px;
     font-family: sans-serif;
 
 }
@@ -87,4 +87,60 @@ h3{
     display:inline-block;
     transform:scale(2,1);
     font-size:15px;
+}
+
+ul{
+    list-style: none;
+    font-family: sans-serif;
+    font-size:25px;
+    margin-top:10px;
+    margin-bottom: 35px;
+
+}
+
+.editorial, .q1-goals, .recruiting, .website, .mobile, .sales{
+    display: inline-block;
+    color:white;
+    font-size: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.editorial{
+    background-color: rgb(69,171,234);
+    width: 70px;
+}
+
+.q1-goals{
+    background-color: rgb(156,114,228);
+}
+
+.recruiting{
+    background-color: rgb(100,192,169);
+}
+
+.website{
+    background-color: rgb(216,99,161);
+}
+
+.mobile{
+    background-color: rgb(242,158,51);
+}
+
+.sales{
+    background-color: rgb(176,201,38);
+}
+
+.tick{
+    color: rgb(107, 196, 174);
+    border-color:rgb(107, 196, 174) ;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    padding-right:4px;
+    padding-left:4px;
+    margin-right: 5px;
 }
