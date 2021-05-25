@@ -22,3 +22,52 @@ img{
     vertical-align: middle;
     margin-bottom: 30px;
 }
+
+main{
+    background-color: rgb(246,248,249);
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+
+.main-body{
+    background-color: white;
+    width: 1050px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+nav{
+    line-height: 50px;
+    padding-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.button-height{
+    height:27px;
+}
+
+#button1{
+    color:white;
+    background-color:rgb(71,173,241);
+    border-color: rgb(71,173,241); 
+    border-radius: 5px;
+    width:75px;
+    border-style: solid; 
+}
+
+#button2{
+    color:rgb(197,203,208);
+    background-color: white; 
+    border-style: solid; 
+    border-color: rgb(197,203,208);
+    width:90px;
+    border-width: 1px;   
+    border-radius: 5px;
+}
+
+hr{
+    border-color: rgb(246,248,249);
+    border-style: solid;
+}
